@@ -1,11 +1,1 @@
-// loading
-window.addEventListener('load', function() {
-    (function() {
-        var
-            page = document.getElementById('page'),
-            loading = document.getElementById('page-loading');
-
-        loading.classList.add('js-hidden');
-        page.classList.remove('js-hidden');
-    })()
-});
+window.addEventListener("load",function(){!function(){var e=document.getElementById("page");document.getElementById("page-loading").classList.add("js-hidden"),e.classList.remove("js-hidden")}()});
