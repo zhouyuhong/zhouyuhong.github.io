@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhouyuhong.top/"/>
-  <updated>2017-12-29T09:43:09.214Z</updated>
+  <updated>2017-12-29T09:23:24.108Z</updated>
   <id>http://zhouyuhong.top/</id>
   
   <author>
@@ -15,20 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>测试评论</title>
-    <link href="http://zhouyuhong.top/2017/12/29/%E6%B5%8B%E8%AF%95%E8%AF%84%E8%AE%BA/"/>
-    <id>http://zhouyuhong.top/2017/12/29/测试评论/</id>
-    <published>2017-12-29T09:43:09.000Z</published>
-    <updated>2017-12-29T09:43:09.214Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>Mysql主从同步原理</title>
