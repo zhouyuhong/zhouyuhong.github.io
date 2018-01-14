@@ -1,0 +1,217 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/  
+
+language: zh-cn
+timezone:
+
+# 博客的标题
+title: 箫竹影
+
+# banner显示的子标题
+subtitle: 箫竹影的博客
+
+# banner显示的简短介绍
+subtitle_desc: 记录日常学习的点点滴滴
+
+# seo关键字
+keywords: 箫竹影, 箫竹影的博客, java, golang, node.js, javascript, 机器学习, 人工智能呢, 程序员, 前端开发, 服务器开发, 全栈开发, 周禹宏
+
+# 博客介绍（同时用于seo）
+description: 箫竹影，坐标重庆，java开发渣渣一枚，喜欢钻研各种有趣的技术，但不一定实用；喜欢购买一些高大上的书籍，但不一定会看；喜欢各种个样的运动，但没有任何实战经验；梦想去一次米兰看球，但已不认识现在球队的任何一个人；主张乐观，快乐的工作和生活，喜欢追逐梦想的感觉。
+
+# 个人介绍
+introduction: 含蓄而不失犀利，犀利而不失委婉，委婉而不失个性！
+
+# header 的背景图
+header_cover: http://images-enjoylife.bj.bcebos.com/blog%2Fbanner.jpg
+
+# 博客的左上角logo图标，支持本地及在线两种方式
+logo: http://images-enjoylife.bj.bcebos.com/blog%2Flogo-left.png
+
+# 博客的favicon图标，支持本地及在线两种方式，本地请将图标放置于 themes/hexo-theme-skapp/source/img 目录下
+favicon_ico: http://images-enjoylife.bj.bcebos.com/blog%2Ffavicon.ico
+
+# 页面加载loading图标
+loader_img: http://images-enjoylife.bj.bcebos.com/blog%2Floading.gif
+
+# 头像/二维码（用于显示在底部）二选一
+qrcode: http://images-enjoylife.bj.bcebos.com/blog%2Frss.png
+
+# 站长信息
+author:
+  name: 箫竹影
+  link: https://github.com/zhouyuhong
+  
+# 用于页面 footer 的站长信息
+about:
+  info: 本站主要用于分享和交流，欢迎微信扫码与我一起探讨，欢迎点击右下角订阅rss。
+  address: Chongqing, China
+  email: 273961736@qq.com
+  
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://zhouyuhong.top
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace:
+  
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+  
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: hexo-theme-skapp
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repo: https://github.com/zhouyuhong/zhouyuhong.github.io.git
+  branch: master
+  
+# SASS
+node_sass:
+  outputStyle: nested
+  precision: 5
+  sourceComments: false
+
+# Autoprefixer
+autoprefixer:
+  exclude:
+    - '*.min.css'
+  browsers:
+    - 'last 2 versions'
+
+# Lunr
+lunr:
+  field: all
+  fulltext: false
+  path: assets/lunr/
+
+# filter_cleanup
+hfc_useref:
+  enable: true
+  concat: true
+
+hfc_html:
+  enable: true
+  exclude:
+
+hfc_css:
+  enable: true
+  exclude: 
+    - '*.min.css'
+
+hfc_js:
+  enable: true
+  mangle: true
+  exclude: 
+    - '*.min.js'
+
+hfc_img:
+  enable: false
+  interlaced: false
+  multipass: false
+  optimizationLevel: 2
+  pngquant: false
+  progressive: false
+
+hfc_favicons:
+  enable: false
+  src: img/blog-logo.png
+  target: img/
+  icons:
+    android: true
+    appleIcon: true
+    appleStartup: false
+    coast: false
+    favicons: true
+    firefox: false
+    opengraph: false
+    windows: true
+    yandex: false  
+
+# menu
+menu:
+  home: / 
+  archive: /archives
+  about: /about
+
+  
+# 百度统计
+baidu_statistic: 8c6377e9263c5a80ba1e5ce58bdeff58
+
+
+# gitalk
+gitTalk:
+  clientId: 2fbafc7d21e6ea267a8f
+  clientSecret: f7e91b245bbcd441559719a38f4da1aa5a5bc96b
+  repo: zhouyuhong.github.io
+  owner: zhouyuhong
+  admin: 
+    - zhouyuhong
+    
+# Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 15
+  
+  
+
+  
+  
+  
+
