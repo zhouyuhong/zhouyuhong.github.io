@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://zhouyuhong.top/2018/02/09/Mysql-InnoDB%E5%86%85%E9%83%A8%E5%8E%9F%E7%90%86%E6%B5%85%E6%9E%90/</loc>
+    
+    <lastmod>2018-02-11T02:39:21.202Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://zhouyuhong.top/2018/01/14/Zookeeper-Paxos%E7%AE%97%E6%B3%95%E7%90%86%E8%A7%A3/</loc>
     
     <lastmod>2018-01-15T10:41:53.228Z</lastmod>
